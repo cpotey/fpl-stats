@@ -199,6 +199,7 @@ function dataLoadOnly() {
                   var playerArray = data.elements;
                   var teamArray = data.teams;
                   var elementArray = data.element_types;
+                  var headerSearchResults = "";
 
                   for (var team = 0; team < teamArray.length; team++) {
                       teamNames.push(teamArray[team].name);
@@ -234,6 +235,16 @@ function dataLoadOnly() {
 
                   }
 
+                  headerSearchResults += "<ul id='headerSearch'>";
+
+                  for (var player = 0; player < playerArray.length; player++) {
+
+                      headerSearchResults += "<li id='playername'><a name='" + playerArray[player].web_name.toLowerCase() + "' tabindex='0' onclick='indepthPlayer(" + playerArray[player].id + ",\"" + playerArray[player].first_name + " " + playerArray[player].second_name + "\")'>" + playerArray[player].first_name + " " + playerArray[player].second_name + "</a></li>";
+
+                  }
+                  headerSearchResults += "</ul>";
+                  document.getElementById("headerSearchResults").innerHTML = headerSearchResults;
+
 
               });
           }
@@ -248,6 +259,7 @@ function dataLoadOnly() {
 function loadPlayers() {
 
 
+    
   document.getElementById("output").innerHTML = '';
   showLoader();
 
@@ -271,6 +283,7 @@ function loadPlayers() {
                   var teamArray = data.teams;
                   var elementArray = data.element_types;
                   var output = "";
+                  var headerSearchResults = "";
 
                   output += '<div class="search-area"><input type="text" id="playerSearchInput" onkeyup="playerSearch()" autofocus="autofocus" onfocus="this.select()" placeholder="Search for names.."></div>';
 
@@ -309,6 +322,16 @@ function loadPlayers() {
                       var playerRed = playerArray[player].red_cards;
 
                   }
+
+                  headerSearchResults += "<ul id='headerSearch'>";
+
+                  for (var player = 0; player < playerArray.length; player++) {
+
+                      headerSearchResults += "<li id='playername'><a name='" + playerArray[player].web_name.toLowerCase() + "' tabindex='0' onclick='indepthPlayer(" + playerArray[player].id + ",\"" + playerArray[player].first_name + " " + playerArray[player].second_name + "\")'>" + playerArray[player].first_name + " " + playerArray[player].second_name + "</a></li>";
+
+                  }
+                  headerSearchResults += "</ul>";
+                  document.getElementById("headerSearchResults").innerHTML = headerSearchResults;
 
 
                   // console.log(teamNames);
@@ -844,6 +867,7 @@ function teamplayerSearch(playerTeam) {
 
 function allTeams() {
 
+    dataLoadOnly();
 
   document.getElementById("output").innerHTML = '';
 
