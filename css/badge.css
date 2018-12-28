@@ -1,0 +1,2752 @@
+
+.badge {
+    background-image: url('../assets/badge.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-position: 0 -700px
+}
+
+@media(-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .badge {
+        background-image: url('../assets/badge.png');
+        background-size: 750px 750px
+    }
+}
+
+.badge.ACM {
+    background-position: -50px 0
+}
+
+.badge.ADL {
+    background-position: -500px -300px
+}
+
+.badge.AEK {
+    background-position: 0 -50px
+}
+
+.badge.AFW {
+    background-position: -50px -50px
+}
+
+.badge.AJA {
+    background-position: -100px 0
+}
+
+.badge.APO {
+    background-position: -100px -50px
+}
+
+.badge.ARS {
+    background-position: 0 -100px
+}
+
+.badge.ASI {
+    background-position: -50px -100px
+}
+
+.badge.AST {
+    background-position: -100px -100px
+}
+
+.badge.ASY {
+    background-position: -150px 0
+}
+
+.badge.ATA {
+    background-position: -150px -50px
+}
+
+.badge.ATH {
+    background-position: -150px -100px
+}
+
+.badge.ATM {
+    background-position: 0 -150px
+}
+
+.badge.AUS {
+    background-position: -50px -150px
+}
+
+.badge.AVL {
+    background-position: -100px -150px
+}
+
+.badge.AZ {
+    background-position: -150px -150px
+}
+
+.badge.B04 {
+    background-position: -200px 0
+}
+
+.badge.BAL {
+    background-position: -200px -50px
+}
+
+.badge.BAR {
+    background-position: -200px -100px
+}
+
+.badge.BAT {
+    background-position: -200px -150px
+}
+
+.badge.BBV {
+    background-position: 0 -200px
+}
+
+.badge.BCN {
+    background-position: -50px -200px
+}
+
+.badge.BEF {
+    background-position: -100px -200px
+}
+
+.badge.BEL {
+    background-position: -150px -200px
+}
+
+.badge.BHA {
+    background-position: -200px -200px
+}
+
+.badge.BIR {
+    background-position: -250px 0
+}
+
+.badge.BJK {
+    background-position: -250px -50px
+}
+
+.badge.BLB {
+    background-position: -250px -100px
+}
+
+.badge.BLP {
+    background-position: -250px -150px
+}
+
+.badge.BMG {
+    background-position: -250px -200px
+}
+
+.badge.BOL {
+    background-position: 0 -250px
+}
+
+.badge.BOR {
+    background-position: -50px -250px
+}
+
+.badge.BOU {
+    background-position: -100px -250px
+}
+
+.badge.BRA {
+    background-position: -150px -250px
+}
+
+.badge.BRE {
+    background-position: -200px -250px
+}
+
+.badge.BRG {
+    background-position: -250px -250px
+}
+
+.badge.BRI {
+    background-position: -300px 0
+}
+
+.badge.BRR {
+    background-position: -300px -50px
+}
+
+.badge.BRU {
+    background-position: -300px -100px
+}
+
+.badge.BRW {
+    background-position: -300px -150px
+}
+
+.badge.BRY {
+    background-position: -300px -200px
+}
+
+.badge.BSC {
+    background-position: -300px -250px
+}
+
+.badge.BSL {
+    background-position: 0 -300px
+}
+
+.badge.BUR {
+    background-position: -50px -300px
+}
+
+.badge.BVB {
+    background-position: -100px -300px
+}
+
+.badge.CAR {
+    background-position: -150px -300px
+}
+
+.badge.CEL {
+    background-position: -200px -300px
+}
+
+.badge.CHA {
+    background-position: -250px -300px
+}
+
+.badge.CHE {
+    background-position: -300px -300px
+}
+
+.badge.CHF {
+    background-position: -350px 0
+}
+
+.badge.CHT {
+    background-position: -350px -50px
+}
+
+.badge.CLV {
+    background-position: -350px -100px
+}
+
+.badge.CMU {
+    background-position: -350px -150px
+}
+
+.badge.COU {
+    background-position: -350px -200px
+}
+
+.badge.COV {
+    background-position: -350px -250px
+}
+
+.badge.CPH {
+    background-position: -350px -300px
+}
+
+.badge.CRE {
+    background-position: 0 -350px
+}
+
+.badge.CRW {
+    background-position: -50px -350px
+}
+
+.badge.CRY {
+    background-position: -100px -350px
+}
+
+.badge.CSK {
+    background-position: -150px -350px
+}
+
+.badge.CUT {
+    background-position: -200px -350px
+}
+
+.badge.CZV {
+    background-position: -250px -350px
+}
+
+.badge.DAG {
+    background-position: -300px -350px
+}
+
+.badge.DER-new {
+    background-position: -350px -350px
+}
+
+.badge.DER {
+    background-position: -400px 0
+}
+
+.badge.DMK {
+    background-position: -400px -50px
+}
+
+.badge.DND {
+    background-position: -400px -100px
+}
+
+.badge.DNR {
+    background-position: -400px -150px
+}
+
+.badge.DON {
+    background-position: -400px -200px
+}
+
+.badge.DYK {
+    background-position: -400px -250px
+}
+
+.badge.DZG {
+    background-position: -400px -300px
+}
+
+.badge.EAS {
+    background-position: -400px -350px
+}
+
+.badge.EVE {
+    background-position: 0 -400px
+}
+
+.badge.EXE {
+    background-position: -50px -400px
+}
+
+.badge.FCA {
+    background-position: -100px -400px
+}
+
+.badge.FCB {
+    background-position: -150px -400px
+}
+
+.badge.FCL {
+    background-position: -200px -400px
+}
+
+.badge.FCSM {
+    background-position: -250px -400px
+}
+
+.badge.FEN {
+    background-position: -300px -400px
+}
+
+.badge.FEY {
+    background-position: -350px -400px
+}
+
+.badge.FGR {
+    background-position: -400px -400px
+}
+
+.badge.FIO {
+    background-position: -450px 0
+}
+
+.badge.FKQ {
+    background-position: -450px -50px
+}
+
+.badge.FKV {
+    background-position: -450px -100px
+}
+
+.badge.FLE {
+    background-position: -450px -150px
+}
+
+.badge.FUL {
+    background-position: -450px -200px
+}
+
+.badge.GAL {
+    background-position: -450px -250px
+}
+
+.badge.GIL {
+    background-position: -450px -300px
+}
+
+.badge.GRI {
+    background-position: -450px -350px
+}
+
+.badge.GRO {
+    background-position: -450px -400px
+}
+
+.badge.HAL {
+    background-position: 0 -450px
+}
+
+.badge.HBS {
+    background-position: -50px -450px
+}
+
+.badge.HOF {
+    background-position: -100px -450px
+}
+
+.badge.HUD {
+    background-position: -150px -450px
+}
+
+.badge.HUL {
+    background-position: -200px -450px
+}
+
+.badge.IBA {
+    background-position: -250px -450px
+}
+
+.badge.IPS {
+    background-position: -300px -450px
+}
+
+.badge.JUV {
+    background-position: -350px -450px
+}
+
+.badge.KAA {
+    background-position: -400px -450px
+}
+
+.badge.KOE {
+    background-position: -450px -450px
+}
+
+.badge.KRA {
+    background-position: -500px 0
+}
+
+.badge.KYS {
+    background-position: -500px -50px
+}
+
+.badge.LAZ {
+    background-position: -500px -100px
+}
+
+.badge.LEE {
+    background-position: -500px -150px
+}
+
+.badge.LEG {
+    background-position: -500px -200px
+}
+
+.badge.LEI {
+    background-position: -500px -250px
+}
+
+.badge.LEP {
+    background-position: 0 0
+}
+
+.badge.LIB {
+    background-position: -500px -350px
+}
+
+.badge.LIN {
+    background-position: -500px -400px
+}
+
+.badge.LIV {
+    background-position: -500px -450px
+}
+
+.badge.LKM {
+    background-position: 0 -500px
+}
+
+.badge.LNO {
+    background-position: -50px -500px
+}
+
+.badge.LOK {
+    background-position: -100px -500px
+}
+
+.badge.LUD {
+    background-position: -150px -500px
+}
+
+.badge.LUT {
+    background-position: -200px -500px
+}
+
+.badge.LYN {
+    background-position: -250px -500px
+}
+
+.badge.M05 {
+    background-position: -300px -500px
+}
+
+.badge.MAN {
+    background-position: -350px -500px
+}
+
+.badge.MAR {
+    background-position: -400px -500px
+}
+
+.badge.MCH {
+    background-position: -450px -500px
+}
+
+.badge.MCI {
+    background-position: -500px -500px
+}
+
+.badge.MCO {
+    background-position: -550px 0
+}
+
+.badge.MFF {
+    background-position: -550px -50px
+}
+
+.badge.MID {
+    background-position: -550px -100px
+}
+
+.badge.MIL {
+    background-position: -550px -150px
+}
+
+.badge.MKD {
+    background-position: -550px -200px
+}
+
+.badge.MOL {
+    background-position: -550px -250px
+}
+
+.badge.MOR {
+    background-position: -550px -300px
+}
+
+.badge.MTA {
+    background-position: -550px -350px
+}
+
+.badge.MUN {
+    background-position: -550px -400px
+}
+
+.badge.NAP {
+    background-position: -550px -450px
+}
+
+.badge.NEW {
+    background-position: -550px -500px
+}
+
+.badge.NFO {
+    background-position: 0 -550px
+}
+
+.badge.NHT {
+    background-position: -50px -550px
+}
+
+.badge.NIC {
+    background-position: -100px -550px
+}
+
+.badge.NKM {
+    background-position: -150px -550px
+}
+
+.badge.NOR {
+    background-position: -200px -550px
+}
+
+.badge.NOT {
+    background-position: -250px -550px
+}
+
+.badge.NWP {
+    background-position: -300px -550px
+}
+
+.badge.OFK {
+    background-position: -350px -550px
+}
+
+.badge.OLD {
+    background-position: -400px -550px
+}
+
+.badge.OLY {
+    background-position: -450px -550px
+}
+
+.badge.OSM {
+    background-position: -500px -550px
+}
+
+.badge.OXF {
+    background-position: -550px -550px
+}
+
+.badge.PAO {
+    background-position: -600px 0
+}
+
+.badge.PBG {
+    background-position: -600px -50px
+}
+
+.badge.PET {
+    background-position: -600px -100px
+}
+
+.badge.PLY {
+    background-position: -600px -150px
+}
+
+.badge.PLZ {
+    background-position: -600px -200px
+}
+
+.badge.PNE {
+    background-position: -600px -250px
+}
+
+.badge.POR {
+    background-position: -600px -300px
+}
+
+.badge.PSG {
+    background-position: -600px -350px
+}
+
+.badge.PSV {
+    background-position: -600px -400px
+}
+
+.badge.PTO {
+    background-position: -600px -450px
+}
+
+.badge.PTV {
+    background-position: -600px -500px
+}
+
+.badge.QAB {
+    background-position: -600px -550px
+}
+
+.badge.QPR {
+    background-position: 0 -600px
+}
+
+.badge.RAP {
+    background-position: -50px -600px
+}
+
+.badge.RBL {
+    background-position: -100px -600px
+}
+
+.badge.RDG {
+    background-position: -150px -600px
+}
+
+.badge.RMA {
+    background-position: -200px -600px
+}
+
+.badge.RMD {
+    background-position: -250px -600px
+}
+
+.badge.ROC {
+    background-position: -300px -600px
+}
+
+.badge.RSB {
+    background-position: -350px -600px
+}
+
+.badge.RSO {
+    background-position: -400px -600px
+}
+
+.badge.RSV {
+    background-position: -450px -600px
+}
+
+.badge.RTH {
+    background-position: -500px -600px
+}
+
+.badge.RUB {
+    background-position: -550px -600px
+}
+
+.badge.S04 {
+    background-position: -600px -600px
+}
+
+.badge.SBR {
+    background-position: -650px 0
+}
+
+.badge.SCL {
+    background-position: -650px -50px
+}
+
+.badge.SCU {
+    background-position: -650px -100px
+}
+
+.badge.SDK {
+    background-position: -650px -150px
+}
+
+.badge.SEV {
+    background-position: -650px -200px
+}
+
+.badge.SHR {
+    background-position: -650px -250px
+}
+
+.badge.SHU {
+    background-position: -650px -300px
+}
+
+.badge.SHW {
+    background-position: -650px -350px
+}
+
+.badge.SIO {
+    background-position: -650px -400px
+}
+
+.badge.SKE {
+    background-position: -650px -450px
+}
+
+.badge.SOU {
+    background-position: -650px -500px
+}
+
+.badge.SPP {
+    background-position: -650px -550px
+}
+
+.badge.SPR {
+    background-position: -650px -600px
+}
+
+.badge.SSL {
+    background-position: 0 -650px
+}
+
+.badge.STE {
+    background-position: -50px -650px
+}
+
+.badge.STK {
+    background-position: -100px -650px
+}
+
+.badge.STO {
+    background-position: -150px -650px
+}
+
+.badge.STU {
+    background-position: -200px -650px
+}
+
+.badge.STV {
+    background-position: -250px -650px
+}
+
+.badge.SUN {
+    background-position: -300px -650px
+}
+
+.badge.SUT {
+    background-position: -350px -650px
+}
+
+.badge.SWA {
+    background-position: -400px -650px
+}
+
+.badge.SWI {
+    background-position: -450px -650px
+}
+
+.badge.TOT {
+    background-position: -500px -650px
+}
+
+.badge.VAL {
+    background-position: -550px -650px
+}
+
+.badge.VIL {
+    background-position: -600px -650px
+}
+
+.badge.VIT {
+    background-position: -650px -650px
+}
+
+.badge.VTG {
+    background-position: -700px 0
+}
+
+.badge.WAT {
+    background-position: -700px -50px
+}
+
+.badge.WBA {
+    background-position: -700px -100px
+}
+
+.badge.WHU {
+    background-position: -700px -150px
+}
+
+.badge.WIG {
+    background-position: -700px -200px
+}
+
+.badge.WIM {
+    background-position: -700px -250px
+}
+
+.badge.WLS {
+    background-position: -700px -300px
+}
+
+.badge.WOB {
+    background-position: -700px -350px
+}
+
+.badge.WOL {
+    background-position: -700px -400px
+}
+
+.badge.WYC {
+    background-position: -700px -450px
+}
+
+.badge.YEO {
+    background-position: -700px -500px
+}
+
+.badge.ZLN {
+    background-position: -700px -550px
+}
+
+.badge.ZNT {
+    background-position: -700px -600px
+}
+
+.badge.ZRL {
+    background-position: -700px -650px
+}
+
+.badge.default {
+    background-position: 0 -700px
+}
+
+.badge.t185 {
+    background-position: -50px -700px
+}
+
+.badge-100 {
+    background-image: url('../assets/badges-100.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-position: 0 -1400px
+}
+
+@media(-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .badge-100 {
+        background-image: url('../assets/badges-100.png');
+        background-size: 1500px 1500px
+    }
+}
+
+.badge-100.ACM {
+    background-position: -100px 0
+}
+
+.badge-100.ADL {
+    background-position: -1000px -600px
+}
+
+.badge-100.AEK {
+    background-position: 0 -100px
+}
+
+.badge-100.AFW {
+    background-position: -100px -100px
+}
+
+.badge-100.AJA {
+    background-position: -200px 0
+}
+
+.badge-100.APO {
+    background-position: -200px -100px
+}
+
+.badge-100.ARS {
+    background-position: 0 -200px
+}
+
+.badge-100.ASI {
+    background-position: -100px -200px
+}
+
+.badge-100.AST {
+    background-position: -200px -200px
+}
+
+.badge-100.ASY {
+    background-position: -300px 0
+}
+
+.badge-100.ATA {
+    background-position: -300px -100px
+}
+
+.badge-100.ATH {
+    background-position: -300px -200px
+}
+
+.badge-100.ATM {
+    background-position: 0 -300px
+}
+
+.badge-100.AUS {
+    background-position: -100px -300px
+}
+
+.badge-100.AVL {
+    background-position: -200px -300px
+}
+
+.badge-100.AZ {
+    background-position: -300px -300px
+}
+
+.badge-100.B04 {
+    background-position: -400px 0
+}
+
+.badge-100.BAL {
+    background-position: -400px -100px
+}
+
+.badge-100.BAR {
+    background-position: -400px -200px
+}
+
+.badge-100.BAT {
+    background-position: -400px -300px
+}
+
+.badge-100.BBV {
+    background-position: 0 -400px
+}
+
+.badge-100.BCN {
+    background-position: -100px -400px
+}
+
+.badge-100.BEF {
+    background-position: -200px -400px
+}
+
+.badge-100.BEL {
+    background-position: -300px -400px
+}
+
+.badge-100.BHA {
+    background-position: -400px -400px
+}
+
+.badge-100.BIR {
+    background-position: -500px 0
+}
+
+.badge-100.BJK {
+    background-position: -500px -100px
+}
+
+.badge-100.BLB {
+    background-position: -500px -200px
+}
+
+.badge-100.BLP {
+    background-position: -500px -300px
+}
+
+.badge-100.BMG {
+    background-position: -500px -400px
+}
+
+.badge-100.BOL {
+    background-position: 0 -500px
+}
+
+.badge-100.BOR {
+    background-position: -100px -500px
+}
+
+.badge-100.BOU {
+    background-position: -200px -500px
+}
+
+.badge-100.BRA {
+    background-position: -300px -500px
+}
+
+.badge-100.BRE {
+    background-position: -400px -500px
+}
+
+.badge-100.BRG {
+    background-position: -500px -500px
+}
+
+.badge-100.BRI {
+    background-position: -600px 0
+}
+
+.badge-100.BRR {
+    background-position: -600px -100px
+}
+
+.badge-100.BRU {
+    background-position: -600px -200px
+}
+
+.badge-100.BRW {
+    background-position: -600px -300px
+}
+
+.badge-100.BRY {
+    background-position: -600px -400px
+}
+
+.badge-100.BSC {
+    background-position: -600px -500px
+}
+
+.badge-100.BSL {
+    background-position: 0 -600px
+}
+
+.badge-100.BUR {
+    background-position: -100px -600px
+}
+
+.badge-100.BVB {
+    background-position: -200px -600px
+}
+
+.badge-100.CAR {
+    background-position: -300px -600px
+}
+
+.badge-100.CEL {
+    background-position: -400px -600px
+}
+
+.badge-100.CHA {
+    background-position: -500px -600px
+}
+
+.badge-100.CHE {
+    background-position: -600px -600px
+}
+
+.badge-100.CHF {
+    background-position: -700px 0
+}
+
+.badge-100.CHT {
+    background-position: -700px -100px
+}
+
+.badge-100.CLV {
+    background-position: -700px -200px
+}
+
+.badge-100.CMU {
+    background-position: -700px -300px
+}
+
+.badge-100.COU {
+    background-position: -700px -400px
+}
+
+.badge-100.COV {
+    background-position: -700px -500px
+}
+
+.badge-100.CPH {
+    background-position: -700px -600px
+}
+
+.badge-100.CRE {
+    background-position: 0 -700px
+}
+
+.badge-100.CRW {
+    background-position: -100px -700px
+}
+
+.badge-100.CRY {
+    background-position: -200px -700px
+}
+
+.badge-100.CSK {
+    background-position: -300px -700px
+}
+
+.badge-100.CUT {
+    background-position: -400px -700px
+}
+
+.badge-100.CZV {
+    background-position: -500px -700px
+}
+
+.badge-100.DAG {
+    background-position: -600px -700px
+}
+
+.badge-100.DER-new {
+    background-position: -700px -700px
+}
+
+.badge-100.DER {
+    background-position: -800px 0
+}
+
+.badge-100.DMK {
+    background-position: -800px -100px
+}
+
+.badge-100.DND {
+    background-position: -800px -200px
+}
+
+.badge-100.DNR {
+    background-position: -800px -300px
+}
+
+.badge-100.DON {
+    background-position: -800px -400px
+}
+
+.badge-100.DYK {
+    background-position: -800px -500px
+}
+
+.badge-100.DZG {
+    background-position: -800px -600px
+}
+
+.badge-100.EAS {
+    background-position: -800px -700px
+}
+
+.badge-100.EVE {
+    background-position: 0 -800px
+}
+
+.badge-100.EXE {
+    background-position: -100px -800px
+}
+
+.badge-100.FCA {
+    background-position: -200px -800px
+}
+
+.badge-100.FCB {
+    background-position: -300px -800px
+}
+
+.badge-100.FCL {
+    background-position: -400px -800px
+}
+
+.badge-100.FCSM {
+    background-position: -500px -800px
+}
+
+.badge-100.FEN {
+    background-position: -600px -800px
+}
+
+.badge-100.FEY {
+    background-position: -700px -800px
+}
+
+.badge-100.FGR {
+    background-position: -800px -800px
+}
+
+.badge-100.FIO {
+    background-position: -900px 0
+}
+
+.badge-100.FKQ {
+    background-position: -900px -100px
+}
+
+.badge-100.FKV {
+    background-position: -900px -200px
+}
+
+.badge-100.FLE {
+    background-position: -900px -300px
+}
+
+.badge-100.FUL {
+    background-position: -900px -400px
+}
+
+.badge-100.GAL {
+    background-position: -900px -500px
+}
+
+.badge-100.GIL {
+    background-position: -900px -600px
+}
+
+.badge-100.GRI {
+    background-position: -900px -700px
+}
+
+.badge-100.GRO {
+    background-position: -900px -800px
+}
+
+.badge-100.HAL {
+    background-position: 0 -900px
+}
+
+.badge-100.HBS {
+    background-position: -100px -900px
+}
+
+.badge-100.HOF {
+    background-position: -200px -900px
+}
+
+.badge-100.HUD {
+    background-position: -300px -900px
+}
+
+.badge-100.HUL {
+    background-position: -400px -900px
+}
+
+.badge-100.IBA {
+    background-position: -500px -900px
+}
+
+.badge-100.IPS {
+    background-position: -600px -900px
+}
+
+.badge-100.JUV {
+    background-position: -700px -900px
+}
+
+.badge-100.KAA {
+    background-position: -800px -900px
+}
+
+.badge-100.KOE {
+    background-position: -900px -900px
+}
+
+.badge-100.KRA {
+    background-position: -1000px 0
+}
+
+.badge-100.KYS {
+    background-position: -1000px -100px
+}
+
+.badge-100.LAZ {
+    background-position: -1000px -200px
+}
+
+.badge-100.LEE {
+    background-position: -1000px -300px
+}
+
+.badge-100.LEG {
+    background-position: -1000px -400px
+}
+
+.badge-100.LEI {
+    background-position: -1000px -500px
+}
+
+.badge-100.LEP {
+    background-position: 0 0
+}
+
+.badge-100.LIB {
+    background-position: -1000px -700px
+}
+
+.badge-100.LIN {
+    background-position: -1000px -800px
+}
+
+.badge-100.LIV {
+    background-position: -1000px -900px
+}
+
+.badge-100.LKM {
+    background-position: 0 -1000px
+}
+
+.badge-100.LNO {
+    background-position: -100px -1000px
+}
+
+.badge-100.LOK {
+    background-position: -200px -1000px
+}
+
+.badge-100.LUD {
+    background-position: -300px -1000px
+}
+
+.badge-100.LUT {
+    background-position: -400px -1000px
+}
+
+.badge-100.LYN {
+    background-position: -500px -1000px
+}
+
+.badge-100.M05 {
+    background-position: -600px -1000px
+}
+
+.badge-100.MAN {
+    background-position: -700px -1000px
+}
+
+.badge-100.MAR {
+    background-position: -800px -1000px
+}
+
+.badge-100.MCH {
+    background-position: -900px -1000px
+}
+
+.badge-100.MCI {
+    background-position: -1000px -1000px
+}
+
+.badge-100.MCO {
+    background-position: -1100px 0
+}
+
+.badge-100.MFF {
+    background-position: -1100px -100px
+}
+
+.badge-100.MID {
+    background-position: -1100px -200px
+}
+
+.badge-100.MIL {
+    background-position: -1100px -300px
+}
+
+.badge-100.MKD {
+    background-position: -1100px -400px
+}
+
+.badge-100.MOL {
+    background-position: -1100px -500px
+}
+
+.badge-100.MOR {
+    background-position: -1100px -600px
+}
+
+.badge-100.MTA {
+    background-position: -1100px -700px
+}
+
+.badge-100.MUN {
+    background-position: -1100px -800px
+}
+
+.badge-100.NAP {
+    background-position: -1100px -900px
+}
+
+.badge-100.NEW {
+    background-position: -1100px -1000px
+}
+
+.badge-100.NFO {
+    background-position: 0 -1100px
+}
+
+.badge-100.NHT {
+    background-position: -100px -1100px
+}
+
+.badge-100.NIC {
+    background-position: -200px -1100px
+}
+
+.badge-100.NKM {
+    background-position: -300px -1100px
+}
+
+.badge-100.NOR {
+    background-position: -400px -1100px
+}
+
+.badge-100.NOT {
+    background-position: -500px -1100px
+}
+
+.badge-100.NWP {
+    background-position: -600px -1100px
+}
+
+.badge-100.OFK {
+    background-position: -700px -1100px
+}
+
+.badge-100.OLD {
+    background-position: -800px -1100px
+}
+
+.badge-100.OLY {
+    background-position: -900px -1100px
+}
+
+.badge-100.OSM {
+    background-position: -1000px -1100px
+}
+
+.badge-100.OXF {
+    background-position: -1100px -1100px
+}
+
+.badge-100.PAO {
+    background-position: -1200px 0
+}
+
+.badge-100.PBG {
+    background-position: -1200px -100px
+}
+
+.badge-100.PET {
+    background-position: -1200px -200px
+}
+
+.badge-100.PLY {
+    background-position: -1200px -300px
+}
+
+.badge-100.PLZ {
+    background-position: -1200px -400px
+}
+
+.badge-100.PNE {
+    background-position: -1200px -500px
+}
+
+.badge-100.POR {
+    background-position: -1200px -600px
+}
+
+.badge-100.PSG {
+    background-position: -1200px -700px
+}
+
+.badge-100.PSV {
+    background-position: -1200px -800px
+}
+
+.badge-100.PTO {
+    background-position: -1200px -900px
+}
+
+.badge-100.PTV {
+    background-position: -1200px -1000px
+}
+
+.badge-100.QAB {
+    background-position: -1200px -1100px
+}
+
+.badge-100.QPR {
+    background-position: 0 -1200px
+}
+
+.badge-100.RAP {
+    background-position: -100px -1200px
+}
+
+.badge-100.RBL {
+    background-position: -200px -1200px
+}
+
+.badge-100.RDG {
+    background-position: -300px -1200px
+}
+
+.badge-100.RMA {
+    background-position: -400px -1200px
+}
+
+.badge-100.RMD {
+    background-position: -500px -1200px
+}
+
+.badge-100.ROC {
+    background-position: -600px -1200px
+}
+
+.badge-100.RSB {
+    background-position: -700px -1200px
+}
+
+.badge-100.RSO {
+    background-position: -800px -1200px
+}
+
+.badge-100.RSV {
+    background-position: -900px -1200px
+}
+
+.badge-100.RTH {
+    background-position: -1000px -1200px
+}
+
+.badge-100.RUB {
+    background-position: -1100px -1200px
+}
+
+.badge-100.S04 {
+    background-position: -1200px -1200px
+}
+
+.badge-100.SBR {
+    background-position: -1300px 0
+}
+
+.badge-100.SCL {
+    background-position: -1300px -100px
+}
+
+.badge-100.SCU {
+    background-position: -1300px -200px
+}
+
+.badge-100.SDK {
+    background-position: -1300px -300px
+}
+
+.badge-100.SEV {
+    background-position: -1300px -400px
+}
+
+.badge-100.SHR {
+    background-position: -1300px -500px
+}
+
+.badge-100.SHU {
+    background-position: -1300px -600px
+}
+
+.badge-100.SHW {
+    background-position: -1300px -700px
+}
+
+.badge-100.SIO {
+    background-position: -1300px -800px
+}
+
+.badge-100.SKE {
+    background-position: -1300px -900px
+}
+
+.badge-100.SOU {
+    background-position: -1300px -1000px
+}
+
+.badge-100.SPP {
+    background-position: -1300px -1100px
+}
+
+.badge-100.SPR {
+    background-position: -1300px -1200px
+}
+
+.badge-100.SSL {
+    background-position: 0 -1300px
+}
+
+.badge-100.STE {
+    background-position: -100px -1300px
+}
+
+.badge-100.STK {
+    background-position: -200px -1300px
+}
+
+.badge-100.STO {
+    background-position: -300px -1300px
+}
+
+.badge-100.STU {
+    background-position: -400px -1300px
+}
+
+.badge-100.STV {
+    background-position: -500px -1300px
+}
+
+.badge-100.SUN {
+    background-position: -600px -1300px
+}
+
+.badge-100.SUT {
+    background-position: -700px -1300px
+}
+
+.badge-100.SWA {
+    background-position: -800px -1300px
+}
+
+.badge-100.SWI {
+    background-position: -900px -1300px
+}
+
+.badge-100.TOT {
+    background-position: -1000px -1300px
+}
+
+.badge-100.VAL {
+    background-position: -1100px -1300px
+}
+
+.badge-100.VIL {
+    background-position: -1200px -1300px
+}
+
+.badge-100.VIT {
+    background-position: -1300px -1300px
+}
+
+.badge-100.VTG {
+    background-position: -1400px 0
+}
+
+.badge-100.WAT {
+    background-position: -1400px -100px
+}
+
+.badge-100.WBA {
+    background-position: -1400px -200px
+}
+
+.badge-100.WHU {
+    background-position: -1400px -300px
+}
+
+.badge-100.WIG {
+    background-position: -1400px -400px
+}
+
+.badge-100.WIM {
+    background-position: -1400px -500px
+}
+
+.badge-100.WLS {
+    background-position: -1400px -600px
+}
+
+.badge-100.WOB {
+    background-position: -1400px -700px
+}
+
+.badge-100.WOL {
+    background-position: -1400px -800px
+}
+
+.badge-100.WYC {
+    background-position: -1400px -900px
+}
+
+.badge-100.YEO {
+    background-position: -1400px -1000px
+}
+
+.badge-100.ZLN {
+    background-position: -1400px -1100px
+}
+
+.badge-100.ZNT {
+    background-position: -1400px -1200px
+}
+
+.badge-100.ZRL {
+    background-position: -1400px -1300px
+}
+
+.badge-100.default {
+    background-position: 0 -1400px
+}
+
+.badge-100.t185 {
+    background-position: -100px -1400px
+}
+
+.badge-25 {
+    background-image: url('../assets/badges-25.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-position: -25px -350px
+}
+
+@media(-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .badge-25 {
+        background-image: url('../assets/badges-25.png');
+        background-size: 400px 400px
+    }
+}
+
+.badge-25.ACM {
+    background-position: -25px 0
+}
+
+.badge-25.ADL {
+    background-position: -275px -100px
+}
+
+.badge-25.AEK {
+    background-position: 0 -25px
+}
+
+.badge-25.AFW {
+    background-position: -25px -25px
+}
+
+.badge-25.AJA {
+    background-position: -50px 0
+}
+
+.badge-25.APO {
+    background-position: -50px -25px
+}
+
+.badge-25.ARS {
+    background-position: 0 -50px
+}
+
+.badge-25.ASI {
+    background-position: -25px -50px
+}
+
+.badge-25.AST {
+    background-position: -50px -50px
+}
+
+.badge-25.ASY {
+    background-position: -75px 0
+}
+
+.badge-25.ATA {
+    background-position: -75px -25px
+}
+
+.badge-25.ATH {
+    background-position: -75px -50px
+}
+
+.badge-25.ATM {
+    background-position: 0 -75px
+}
+
+.badge-25.AUS {
+    background-position: -25px -75px
+}
+
+.badge-25.AVL {
+    background-position: -50px -75px
+}
+
+.badge-25.AZ {
+    background-position: -75px -75px
+}
+
+.badge-25.B04 {
+    background-position: -100px 0
+}
+
+.badge-25.BAL {
+    background-position: -100px -25px
+}
+
+.badge-25.BAR {
+    background-position: -100px -50px
+}
+
+.badge-25.BAT {
+    background-position: -100px -75px
+}
+
+.badge-25.BBV {
+    background-position: 0 -100px
+}
+
+.badge-25.BCN {
+    background-position: -25px -100px
+}
+
+.badge-25.BEF {
+    background-position: -50px -100px
+}
+
+.badge-25.BEL {
+    background-position: -75px -100px
+}
+
+.badge-25.BHA {
+    background-position: -100px -100px
+}
+
+.badge-25.BIR {
+    background-position: -125px 0
+}
+
+.badge-25.BJK {
+    background-position: -125px -25px
+}
+
+.badge-25.BLB {
+    background-position: -125px -50px
+}
+
+.badge-25.BLP {
+    background-position: -125px -75px
+}
+
+.badge-25.BMG {
+    background-position: -125px -100px
+}
+
+.badge-25.BOL {
+    background-position: 0 -125px
+}
+
+.badge-25.BOR {
+    background-position: -25px -125px
+}
+
+.badge-25.BOU {
+    background-position: -50px -125px
+}
+
+.badge-25.BRA {
+    background-position: -75px -125px
+}
+
+.badge-25.BRE {
+    background-position: -100px -125px
+}
+
+.badge-25.BRG {
+    background-position: -125px -125px
+}
+
+.badge-25.BRI {
+    background-position: -150px 0
+}
+
+.badge-25.BRR {
+    background-position: -150px -25px
+}
+
+.badge-25.BRU {
+    background-position: -150px -50px
+}
+
+.badge-25.BRW {
+    background-position: -150px -75px
+}
+
+.badge-25.BRY {
+    background-position: -150px -100px
+}
+
+.badge-25.BSC {
+    background-position: -150px -125px
+}
+
+.badge-25.BSL {
+    background-position: 0 -150px
+}
+
+.badge-25.BUR {
+    background-position: -25px -150px
+}
+
+.badge-25.BVB {
+    background-position: -50px -150px
+}
+
+.badge-25.CAR {
+    background-position: -75px -150px
+}
+
+.badge-25.CEL {
+    background-position: -100px -150px
+}
+
+.badge-25.CHA {
+    background-position: -125px -150px
+}
+
+.badge-25.CHE {
+    background-position: -150px -150px
+}
+
+.badge-25.CHF {
+    background-position: -175px 0
+}
+
+.badge-25.CHT {
+    background-position: -175px -25px
+}
+
+.badge-25.CLV {
+    background-position: -175px -50px
+}
+
+.badge-25.CMU {
+    background-position: -175px -75px
+}
+
+.badge-25.COU {
+    background-position: -175px -100px
+}
+
+.badge-25.COV {
+    background-position: -175px -125px
+}
+
+.badge-25.CPH {
+    background-position: -175px -150px
+}
+
+.badge-25.CRE {
+    background-position: 0 -175px
+}
+
+.badge-25.CRW {
+    background-position: -25px -175px
+}
+
+.badge-25.CRY {
+    background-position: -50px -175px
+}
+
+.badge-25.CSK {
+    background-position: -75px -175px
+}
+
+.badge-25.CUT {
+    background-position: -100px -175px
+}
+
+.badge-25.CZV {
+    background-position: -125px -175px
+}
+
+.badge-25.DAG {
+    background-position: -150px -175px
+}
+
+.badge-25.DER-new {
+    background-position: -175px -175px
+}
+
+.badge-25.DER {
+    background-position: -200px 0
+}
+
+.badge-25.DMK {
+    background-position: -200px -25px
+}
+
+.badge-25.DND {
+    background-position: -200px -50px
+}
+
+.badge-25.DNR {
+    background-position: -200px -75px
+}
+
+.badge-25.DON {
+    background-position: -200px -100px
+}
+
+.badge-25.DYK {
+    background-position: -200px -125px
+}
+
+.badge-25.DZG {
+    background-position: -200px -150px
+}
+
+.badge-25.EAS {
+    background-position: -200px -175px
+}
+
+.badge-25.EVE {
+    background-position: 0 -200px
+}
+
+.badge-25.EXE {
+    background-position: -25px -200px
+}
+
+.badge-25.FCA {
+    background-position: -50px -200px
+}
+
+.badge-25.FCB {
+    background-position: -75px -200px
+}
+
+.badge-25.FCL {
+    background-position: -100px -200px
+}
+
+.badge-25.FCSM {
+    background-position: -125px -200px
+}
+
+.badge-25.FEN {
+    background-position: -150px -200px
+}
+
+.badge-25.FEY {
+    background-position: -175px -200px
+}
+
+.badge-25.FGR {
+    background-position: -200px -200px
+}
+
+.badge-25.FIO {
+    background-position: -225px 0
+}
+
+.badge-25.FKQ {
+    background-position: -225px -25px
+}
+
+.badge-25.FKV {
+    background-position: -225px -50px
+}
+
+.badge-25.FLE {
+    background-position: -225px -75px
+}
+
+.badge-25.FUL {
+    background-position: -225px -100px
+}
+
+.badge-25.GAL {
+    background-position: -225px -125px
+}
+
+.badge-25.GIL {
+    background-position: -225px -150px
+}
+
+.badge-25.GRI {
+    background-position: -225px -175px
+}
+
+.badge-25.GRO {
+    background-position: -225px -200px
+}
+
+.badge-25.HAL {
+    background-position: 0 -225px
+}
+
+.badge-25.HBS {
+    background-position: -25px -225px
+}
+
+.badge-25.HOF {
+    background-position: -50px -225px
+}
+
+.badge-25.HUD {
+    background-position: -75px -225px
+}
+
+.badge-25.HUL {
+    background-position: -100px -225px
+}
+
+.badge-25.IBA {
+    background-position: -125px -225px
+}
+
+.badge-25.IPS {
+    background-position: -150px -225px
+}
+
+.badge-25.JUV {
+    background-position: -175px -225px
+}
+
+.badge-25.KAA {
+    background-position: -200px -225px
+}
+
+.badge-25.KOE {
+    background-position: -225px -225px
+}
+
+.badge-25.KRA {
+    background-position: -250px 0
+}
+
+.badge-25.KYS {
+    background-position: -250px -25px
+}
+
+.badge-25.LAZ {
+    background-position: -250px -50px
+}
+
+.badge-25.LEE {
+    background-position: -250px -75px
+}
+
+.badge-25.LEG {
+    background-position: -250px -100px
+}
+
+.badge-25.LEI {
+    background-position: -250px -125px
+}
+
+.badge-25.LEP {
+    background-position: -250px -150px
+}
+
+.badge-25.LIB {
+    background-position: -250px -175px
+}
+
+.badge-25.LIN {
+    background-position: -250px -200px
+}
+
+.badge-25.LIV {
+    background-position: -250px -225px
+}
+
+.badge-25.LKM {
+    background-position: 0 -250px
+}
+
+.badge-25.LNO {
+    background-position: -25px -250px
+}
+
+.badge-25.LOK {
+    background-position: -50px -250px
+}
+
+.badge-25.LUD {
+    background-position: -75px -250px
+}
+
+.badge-25.LUT {
+    background-position: -100px -250px
+}
+
+.badge-25.LYN {
+    background-position: -125px -250px
+}
+
+.badge-25.M05 {
+    background-position: -150px -250px
+}
+
+.badge-25.MAN {
+    background-position: -175px -250px
+}
+
+.badge-25.MAR {
+    background-position: -200px -250px
+}
+
+.badge-25.MCH {
+    background-position: -225px -250px
+}
+
+.badge-25.MCI {
+    background-position: -250px -250px
+}
+
+.badge-25.MCO {
+    background-position: -275px 0
+}
+
+.badge-25.MFF {
+    background-position: -275px -25px
+}
+
+.badge-25.MID {
+    background-position: -275px -50px
+}
+
+.badge-25.MIL {
+    background-position: -275px -75px
+}
+
+.badge-25.MKD {
+    background-position: 0 0
+}
+
+.badge-25.MOL {
+    background-position: -275px -125px
+}
+
+.badge-25.MOR {
+    background-position: -275px -150px
+}
+
+.badge-25.MTA {
+    background-position: -275px -175px
+}
+
+.badge-25.MUN {
+    background-position: -275px -200px
+}
+
+.badge-25.NAP {
+    background-position: -275px -225px
+}
+
+.badge-25.NEW {
+    background-position: -275px -250px
+}
+
+.badge-25.NFO {
+    background-position: 0 -275px
+}
+
+.badge-25.NHT {
+    background-position: -25px -275px
+}
+
+.badge-25.NIC {
+    background-position: -50px -275px
+}
+
+.badge-25.NKM {
+    background-position: -75px -275px
+}
+
+.badge-25.NOR {
+    background-position: -100px -275px
+}
+
+.badge-25.NOT {
+    background-position: -125px -275px
+}
+
+.badge-25.NWP {
+    background-position: -150px -275px
+}
+
+.badge-25.OFK {
+    background-position: -175px -275px
+}
+
+.badge-25.OLD {
+    background-position: -200px -275px
+}
+
+.badge-25.OLY {
+    background-position: -225px -275px
+}
+
+.badge-25.OSM {
+    background-position: -250px -275px
+}
+
+.badge-25.OXF {
+    background-position: -275px -275px
+}
+
+.badge-25.PAO {
+    background-position: -300px 0
+}
+
+.badge-25.PBG {
+    background-position: -300px -25px
+}
+
+.badge-25.PET {
+    background-position: -300px -50px
+}
+
+.badge-25.PLY {
+    background-position: -300px -75px
+}
+
+.badge-25.PLZ {
+    background-position: -300px -100px
+}
+
+.badge-25.PNE {
+    background-position: -300px -125px
+}
+
+.badge-25.POR {
+    background-position: -300px -150px
+}
+
+.badge-25.PSG {
+    background-position: -300px -175px
+}
+
+.badge-25.PSV {
+    background-position: -300px -200px
+}
+
+.badge-25.PTO {
+    background-position: -300px -225px
+}
+
+.badge-25.PTV {
+    background-position: -300px -250px
+}
+
+.badge-25.QAB {
+    background-position: -300px -275px
+}
+
+.badge-25.QPR {
+    background-position: 0 -300px
+}
+
+.badge-25.RAP {
+    background-position: -25px -300px
+}
+
+.badge-25.RBL {
+    background-position: -50px -300px
+}
+
+.badge-25.RDG {
+    background-position: -75px -300px
+}
+
+.badge-25.RMA {
+    background-position: -100px -300px
+}
+
+.badge-25.RMD {
+    background-position: -125px -300px
+}
+
+.badge-25.ROC {
+    background-position: -150px -300px
+}
+
+.badge-25.RSB {
+    background-position: -175px -300px
+}
+
+.badge-25.RSO {
+    background-position: -200px -300px
+}
+
+.badge-25.RSV {
+    background-position: -225px -300px
+}
+
+.badge-25.RTH {
+    background-position: -250px -300px
+}
+
+.badge-25.RUB {
+    background-position: -275px -300px
+}
+
+.badge-25.S04 {
+    background-position: -300px -300px
+}
+
+.badge-25.SBR {
+    background-position: -325px 0
+}
+
+.badge-25.SCL {
+    background-position: -325px -25px
+}
+
+.badge-25.SCU {
+    background-position: -325px -50px
+}
+
+.badge-25.SDK {
+    background-position: -325px -75px
+}
+
+.badge-25.SEV {
+    background-position: -325px -100px
+}
+
+.badge-25.SHR {
+    background-position: -325px -125px
+}
+
+.badge-25.SHU {
+    background-position: -325px -150px
+}
+
+.badge-25.SHW {
+    background-position: -325px -175px
+}
+
+.badge-25.SIO {
+    background-position: -325px -200px
+}
+
+.badge-25.SKE {
+    background-position: -325px -225px
+}
+
+.badge-25.SOU {
+    background-position: -325px -250px
+}
+
+.badge-25.SPP {
+    background-position: -325px -275px
+}
+
+.badge-25.SPR {
+    background-position: -325px -300px
+}
+
+.badge-25.SSL {
+    background-position: 0 -325px
+}
+
+.badge-25.STE {
+    background-position: -25px -325px
+}
+
+.badge-25.STK {
+    background-position: -50px -325px
+}
+
+.badge-25.STO {
+    background-position: -75px -325px
+}
+
+.badge-25.STU {
+    background-position: -100px -325px
+}
+
+.badge-25.STV {
+    background-position: -125px -325px
+}
+
+.badge-25.SUN {
+    background-position: -150px -325px
+}
+
+.badge-25.SUT {
+    background-position: -175px -325px
+}
+
+.badge-25.SWA {
+    background-position: -200px -325px
+}
+
+.badge-25.SWI {
+    background-position: -225px -325px
+}
+
+.badge-25.TOT-ALT {
+    background-position: -250px -325px
+}
+
+.badge-25.TOT {
+    background-position: -275px -325px
+}
+
+.badge-25.VAL {
+    background-position: -300px -325px
+}
+
+.badge-25.VIL {
+    background-position: -325px -325px
+}
+
+.badge-25.VIT {
+    background-position: -350px 0
+}
+
+.badge-25.VTG {
+    background-position: -350px -25px
+}
+
+.badge-25.WAT {
+    background-position: -350px -50px
+}
+
+.badge-25.WBA {
+    background-position: -350px -75px
+}
+
+.badge-25.WHU {
+    background-position: -350px -100px
+}
+
+.badge-25.WIG {
+    background-position: -350px -125px
+}
+
+.badge-25.WIM {
+    background-position: -350px -150px
+}
+
+.badge-25.WLS {
+    background-position: -350px -175px
+}
+
+.badge-25.WOB {
+    background-position: -350px -200px
+}
+
+.badge-25.WOL {
+    background-position: -350px -225px
+}
+
+.badge-25.WYC {
+    background-position: -350px -250px
+}
+
+.badge-25.YEO {
+    background-position: -350px -275px
+}
+
+.badge-25.ZLN {
+    background-position: -350px -300px
+}
+
+.badge-25.ZNT {
+    background-position: -350px -325px
+}
+
+.badge-25.ZRL {
+    background-position: 0 -350px
+}
+
+.badge-25.default {
+    background-position: -25px -350px
+}
+
+.badge-25.t1003 {
+    background-position: -50px -350px
+}
+
+.badge-25.t11937 {
+    background-position: -75px -350px
+}
+
+.badge-25.t127 {
+    background-position: -100px -350px
+}
+
+.badge-25.t135 {
+    background-position: -125px -350px
+}
+
+.badge-25.t1409 {
+    background-position: -150px -350px
+}
+
+.badge-25.t159 {
+    background-position: -175px -350px
+}
+
+.badge-25.t160 {
+    background-position: -200px -350px
+}
+
+.badge-25.t1748 {
+    background-position: -225px -350px
+}
+
+.badge-25.t185 {
+    background-position: -250px -350px
+}
+
+.badge-25.t1951 {
+    background-position: -275px -350px
+}
+
+.badge-25.t1963 {
+    background-position: -300px -350px
+}
+
+.badge-25.t1981 {
+    background-position: -325px -350px
+}
+
+.badge-25.t2052 {
+    background-position: -350px -350px
+}
+
+.badge-25.t2057 {
+    background-position: -375px 0
+}
+
+.badge-25.t211 {
+    background-position: -375px -25px
+}
+
+.badge-25.t2273 {
+    background-position: -375px -50px
+}
+
+.badge-25.t264 {
+    background-position: -375px -75px
+}
+
+.badge-25.t2753 {
+    background-position: -375px -100px
+}
+
+.badge-25.t2839 {
+    background-position: -375px -125px
+}
+
+.badge-25.t2847 {
+    background-position: -375px -150px
+}
+
+.badge-25.t3062 {
+    background-position: -375px -175px
+}
+
+.badge-25.t310 {
+    background-position: -375px -200px
+}
+
+.badge-25.t3492 {
+    background-position: -375px -225px
+}
+
+.badge-25.t373 {
+    background-position: -375px -250px
+}
+
+.badge-25.t383 {
+    background-position: -375px -275px
+}
+
+.badge-25.t385 {
+    background-position: -375px -300px
+}
+
+.badge-25.t4004 {
+    background-position: -375px -325px
+}
+
+.badge-25.t401 {
+    background-position: -375px -350px
+}
+
+.badge-25.t414 {
+    background-position: 0 -375px
+}
+
+.badge-25.t428 {
+    background-position: -25px -375px
+}
+
+.badge-25.t429 {
+    background-position: -50px -375px
+}
+
+.badge-25.t452 {
+    background-position: -75px -375px
+}
+
+.badge-25.t453 {
+    background-position: -100px -375px
+}
+
+.badge-25.t463 {
+    background-position: -125px -375px
+}
+
+.badge-25.t472 {
+    background-position: -150px -375px
+}
+
+.badge-25.t491 {
+    background-position: -175px -375px
+}
+
+.badge-25.t595 {
+    background-position: -200px -375px
+}
+
+.badge-25.t857 {
+    background-position: -225px -375px
+}
+
+.badge-25.t936 {
+    background-position: -250px -375px
+}
+
+
+
+
