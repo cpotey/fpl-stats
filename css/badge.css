@@ -864,7 +864,7 @@
 }
 
 .badge-100 {
-    background-image: url('../assets/badges-100.png');
+    /* background-image: url('../assets/badges-100.png'); */
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
