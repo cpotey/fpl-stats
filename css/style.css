@@ -906,14 +906,12 @@ nav #headerSearchResults li a:hover {
 
 @media screen and (min-width:1100px) {
 
-	header {
-		
-	}
-	#output {
+	
+	#output.home {
 		height: 94vh;
 		padding: 0;
 	}
-	#output .box {
+	#output.home .box {
 		padding: 0vh 0;
 		height: 44vh;
 		margin: 1vh 0.5vw!important;
