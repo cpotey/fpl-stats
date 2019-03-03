@@ -7,7 +7,9 @@
     display: block;
     background-position: 0 -700px
 }
-
+.badgesize-25 {
+    background-image: url('../assets/badges-25.png');
+}
 @media(-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     .badge {
         background-image: url('../assets/badge.png');

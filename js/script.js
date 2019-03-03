@@ -362,7 +362,7 @@ function loadPlayers() {
                       output += "<tr id='player-" + playerID + "' class='team-" + playerAbbrev + " player player-" + playerID + "' >";
 
                       output += "<td id='playername' tabindex='0' onclick='indepthPlayer(" + playerID + ",\"" + playerName + "\")'><a name='" + anchorTag + "' >" + playerName + "</a></td>";
-                      output += "<td onclick='teamSearch(" + playerID + ",\"" + playerName + "\"," + playerTeam + ")'>" + "<span class='badge " + playerAbbrev + "'></span></td>";
+                      output += "<td onclick='teamSearch(" + playerID + ",\"" + playerName + "\"," + playerTeam + ")'>" + "<span class='badge badgesize-25 " + playerAbbrev + "'></span></td>";
                       output += "<td class='tableposition' onclick='indepthPlayer(" + playerID + ",\"" + playerName + "\")'>" + elementNames[playerElement] + "</td>";
                       output += "<td class='selectedby' onclick='indepthPlayer(" + playerID + ",\"" + playerName + "\")'>" + playerSelectedByPercent + "%</td>";
                       output += "<td class='form' onclick='indepthPlayer(" + playerID + ",\"" + playerName + "\")'>" + playerForm + "</td>";
