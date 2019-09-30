@@ -19,7 +19,7 @@ const proxyurl = "https://cors-anywhere.herokuapp.com/";
 function firstLoad() {
 
   showLoader();
-  const url = "https://fantasy.premierleague.com/drf/bootstrap-static"; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
@@ -35,7 +35,7 @@ function firstLoad() {
 
                   hideLoader();
 
-                  // console.log(data);
+                  console.log(data);
 
 
                   var playerArray = data.elements;
@@ -43,6 +43,7 @@ function firstLoad() {
                   var elementArray = data.element_types;
                   var output = "";
                   var headerSearchResults = "";
+                  
 
                   for (var team = 0; team < teamArray.length; team++) {
                       teamNames.push(teamArray[team].name);
@@ -179,7 +180,7 @@ function firstLoad() {
 function dataLoadOnly() {
 
   showLoader();
-  const url = "https://fantasy.premierleague.com/drf/bootstrap-static"; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
@@ -263,7 +264,7 @@ function loadPlayers() {
   document.getElementById("output").innerHTML = '';
   showLoader();
 
-  const url = "https://fantasy.premierleague.com/drf/bootstrap-static"; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
@@ -479,7 +480,7 @@ function indepthPlayer(playerID, playerName) {
 
   showLoader();
 
-  const url = "https://fantasy.premierleague.com/drf/element-summary/" + playerID; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/element-summary/" + playerID + "/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
@@ -492,6 +493,7 @@ function indepthPlayer(playerID, playerName) {
               // Examine the text in the response
               response.json().then(function(data) {
 
+                console.log(data)
                   window.scrollTo(0, 0);
                   hideLoader();
 
@@ -506,10 +508,10 @@ function indepthPlayer(playerID, playerName) {
                       return obj.id === playerID
                   })
                   // console.log(selectedPlayer);
-                  var fixturesSummary = data.fixtures_summary;
-                  var upcomingFixtures = data.fixtures;
+                  var fixturesSummary = data.fixtures;
+                //   var upcomingFixtures = data.fixtures;
                   var historyFixtures = data.history;
-                  var nextisHome = data.fixtures_summary[0].is_home;
+                  var nextisHome = data.fixtures[0].is_home;
                   if (nextisHome == true) {
                       var nextha = ' (H)';
                   } else {
@@ -632,42 +634,42 @@ function indepthPlayer(playerID, playerName) {
 
                   }
 
-                  // output += "<tr>";
-                  // output += "<td></td>"
-                  // output += "</tr>";
+                //   for (var game = 0; game < fixturesSummary.length; game++) {
 
-                  for (var game = 0; game < upcomingFixtures.length; game++) {
+                //       if (fixturesSummary[game].is_home == true) {
+                //           var location = " (H) ";
+                //       } else {
+                //           var location = " (A) ";
+                //       };
+                //       output += "<tr>"
 
-                      if (upcomingFixtures[game].is_home == true) {
-                          var location = " (H) ";
-                      } else {
-                          var location = " (A) ";
-                      };
-                      output += "<tr>"
+                //       let opponentName = fixturesSummary[game].opponent_name;
 
-                      output += "<td>" + upcomingFixtures[game].event + "</td>";
-                      output += "<td>" + upcomingFixtures[game].opponent_name + location + "(" + upcomingFixtures[game].kickoff_time_formatted + ")</td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
-                      output += "<td></td>";
+                //       output += "<td>" + fixturesSummary[game].event + "</td>";
+                //       output += "<td>" + fixturesSummary[game].opponent_name + location + "(" + fixturesSummary[game].kickoff_time_formatted + ")</td>";
+
+                //         output += "<td>" + teamNames[opponentTeam] + + location + "(" + fixturesSummary[game].kickoff_time_formatted + ")</td>"; 
+
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
+                //       output += "<td></td>";
 
 
-                      output += "</tr>";
+                //       output += "</tr>";
 
-                  }
+                //   }
 
                   output += "</tbody></table>";
 
-                  // output += playerID + upcomingFixtures[0].opponent_name;
 
                   document.getElementById("output").innerHTML = output;
                   document.getElementById("playerBanner").innerHTML = playerBanner;
@@ -688,7 +690,7 @@ function teamSearch(playerID, playerName, playerTeam) {
   showLoader();
 
 
-  const url = "https://fantasy.premierleague.com/drf/bootstrap-static"; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
@@ -776,7 +778,7 @@ function teamplayerSearch(playerTeam) {
 
   showLoader();
 
-  const url = "https://fantasy.premierleague.com/drf/bootstrap-static"; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
@@ -872,7 +874,7 @@ function allTeams() {
   document.getElementById("output").innerHTML = '';
 
 
-  const url = "https://fantasy.premierleague.com/drf/bootstrap-static"; // site that doesn’t send Access-Control-*
+  const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
   fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
