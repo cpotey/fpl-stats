@@ -14,13 +14,13 @@ var teamNames = [""];
 var teamAbr = [""];
 var elementNames = [""];
 var allPlayers = [{}];
-const proxyurl = "https://cors-anywhere.herokuapp.com/";
+const proxyurl = "https://fpl-stats-cors.herokuapp.com/";
 
 function firstLoad() {
 
   showLoader();
   const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
-  fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
+  fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
 
@@ -181,7 +181,7 @@ function dataLoadOnly() {
 
   showLoader();
   const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
-  fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
+  fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
 
@@ -265,7 +265,7 @@ function loadPlayers() {
   showLoader();
 
   const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
-  fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
+  fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
 

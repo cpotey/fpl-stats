@@ -14,7 +14,7 @@ var teamNames = [""];
 var teamAbr = [""];
 var elementNames = [""];
 var allPlayers = [{}];
-const proxyurl = "https://cors-anywhere.herokuapp.com/";
+const proxyurl = "https://fpl-stats-cors.herokuapp.com/";
 
 function firstLoad() {
 
