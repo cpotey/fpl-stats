@@ -20,7 +20,7 @@ function firstLoad() {
 
   showLoader();
   const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
-  fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
+  fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
 
@@ -181,7 +181,7 @@ function dataLoadOnly() {
 
   showLoader();
   const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
-  fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
+  fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
 
@@ -265,7 +265,7 @@ function loadPlayers() {
   showLoader();
 
   const url = "https://fantasy.premierleague.com/api/bootstrap-static/"; // site that doesn’t send Access-Control-*
-  fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
+  fetch(url) // https://cors-anywhere.herokuapp.com/https://example.com
       .then(
           function(response) {
 
